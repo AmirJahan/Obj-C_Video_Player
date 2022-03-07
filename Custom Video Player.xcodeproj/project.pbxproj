@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2978C26F27D67CF3002448AC /* Tennis.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2978C26E27D67CF3002448AC /* Tennis.mp4 */; };
 		29E4873E1F9927D300F90E15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E4873D1F9927D300F90E15 /* AppDelegate.m */; };
 		29E487411F9927D300F90E15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E487401F9927D300F90E15 /* ViewController.m */; };
 		29E487441F9927D300F90E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E487421F9927D300F90E15 /* Main.storyboard */; };
@@ -14,10 +15,10 @@
 		29E487491F9927D300F90E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E487471F9927D300F90E15 /* LaunchScreen.storyboard */; };
 		29E4874C1F9927D300F90E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E4874B1F9927D300F90E15 /* main.m */; };
 		29E487541F99286E00F90E15 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E487531F99286E00F90E15 /* AVFoundation.framework */; };
-		29E487781F992D8000F90E15 /* ANTI.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 29E487771F992D7B00F90E15 /* ANTI.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2978C26E27D67CF3002448AC /* Tennis.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tennis.mp4; sourceTree = "<group>"; };
 		29E487391F9927D300F90E15 /* Custom Video Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Video Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E4873C1F9927D300F90E15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29E4873D1F9927D300F90E15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		29E4874A1F9927D300F90E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E4874B1F9927D300F90E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29E487531F99286E00F90E15 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		29E487771F992D7B00F90E15 /* ANTI.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ANTI.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +64,9 @@
 		29E4873B1F9927D300F90E15 /* Custom Video Player */ = {
 			isa = PBXGroup;
 			children = (
-				29E487771F992D7B00F90E15 /* ANTI.mp4 */,
 				29E4873C1F9927D300F90E15 /* AppDelegate.h */,
 				29E4873D1F9927D300F90E15 /* AppDelegate.m */,
+				2978C26E27D67CF3002448AC /* Tennis.mp4 */,
 				29E4873F1F9927D300F90E15 /* ViewController.h */,
 				29E487401F9927D300F90E15 /* ViewController.m */,
 				29E487421F9927D300F90E15 /* Main.storyboard */,
@@ -146,8 +146,8 @@
 			files = (
 				29E487491F9927D300F90E15 /* LaunchScreen.storyboard in Resources */,
 				29E487461F9927D300F90E15 /* Assets.xcassets in Resources */,
+				2978C26F27D67CF3002448AC /* Tennis.mp4 in Resources */,
 				29E487441F9927D300F90E15 /* Main.storyboard in Resources */,
-				29E487781F992D8000F90E15 /* ANTI.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -66,7 +66,7 @@ static int myContext = 0;
     self.view.backgroundColor = [UIColor darkGrayColor];
 
     onlineUrl = [[NSURL alloc] initWithString:@"http://ajcut.com/wp-content/uploads/2014/06/AmirJahanlouReel.mp4"];
-    localURL = [[NSBundle mainBundle] URLForResource:@"ANTI" withExtension:@"mp4"];
+    localURL = [[NSBundle mainBundle] URLForResource:@"Tennis" withExtension:@"mp4"];
     
     
     myPlayer = [AVPlayer playerWithURL: localURL];
